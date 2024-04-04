@@ -1,0 +1,44 @@
+
+
+
+<div  >
+<nav class="navbar" *ngIf="isMenuVisible">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button class="navbar-toggler" data-toggle="open-navbar1">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    
+    
+    </div>
+
+    <div class="navbar-menu" id="open-navbar1">
+      <ul class="navbar-nav">
+        
+        
+        <li><a href="#" routerLink="material">Materiels</a></li>
+       
+     
+       <li> </li>
+      </ul>
+     
+    </div>
+    
+    <div  >
+      <button class="nav-link" (click)='logout()'><b> <i class="fa-solid fa-arrow-right-from-bracket" style="color:black; width:50px;"></i></b></button>
+    </div>
+  </div>
+</nav>
+</div>
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
